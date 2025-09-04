@@ -54,3 +54,5 @@ Pipfile.lock
 
 # pytest
 .pytest_cache/
+
+*.csv
