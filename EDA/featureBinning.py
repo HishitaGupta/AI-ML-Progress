@@ -15,7 +15,7 @@ df = pd.read_csv('Python\Churn_Modelling.csv')
 labels = ['0-20','21-40','41-60','Above 61']
 bins = [0,20,40,60,100]
 
-df['Age_bins'] = pd.cut(df.Age,bins,labels = labels ,include_lowest =True)  (IMPT)  
+df['Age_bins'] = pd.cut(df.Age,bins,labels = labels ,include_lowest =True)  #(IMPT)  
 
 # df[['Age_bins','Age']].to_csv('test.csv') 
 
