@@ -39,7 +39,7 @@ df_dummies = pd.get_dummies(df)
 
 df_dummies_de = pd.get_dummies(df, drop_first=True)
 # drops one redundant column
-# print(df_dummies_de.head())
+# print(df_dummies_de.head()) 
 
 
 
