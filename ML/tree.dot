@@ -1,17 +1,17 @@
 digraph Tree {
 node [shape=box, style="filled", color="black", fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
-0 [label=<tenure &le; -0.61<br/>gini = 0.391<br/>samples = 100.0%<br/>value = [0.733, 0.267]<br/>class = y<SUB>0</SUB>>, fillcolor="#eeaf81"] ;
-1 [label=<InternetService_Fiber optic &le; 0.126<br/>gini = 0.496<br/>samples = 37.2%<br/>value = [0.545, 0.455]<br/>class = y<SUB>0</SUB>>, fillcolor="#fbeadf"] ;
+0 [label=<tenure &le; -0.691<br/>gini = 0.389<br/>samples = 100.0%<br/>value = [0.735, 0.265]<br/>class = y<SUB>0</SUB>>, fillcolor="#eeae80"] ;
+1 [label=<InternetService_Fiber optic &le; 0.121<br/>gini = 0.496<br/>samples = 35.0%<br/>value = [0.543, 0.457]<br/>class = y<SUB>0</SUB>>, fillcolor="#fbebe0"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label=<gini = 0.415<br/>samples = 21.2%<br/>value = [0.706, 0.294]<br/>class = y<SUB>0</SUB>>, fillcolor="#f0b58b"] ;
+2 [label=<gini = 0.406<br/>samples = 20.2%<br/>value = [0.717, 0.283]<br/>class = y<SUB>0</SUB>>, fillcolor="#efb387"] ;
 1 -> 2 ;
-3 [label=<gini = 0.443<br/>samples = 16.0%<br/>value = [0.331, 0.669]<br/>class = y<SUB>1</SUB>>, fillcolor="#9bcdf2"] ;
+3 [label=<gini = 0.424<br/>samples = 14.8%<br/>value = [0.306, 0.694]<br/>class = y<SUB>1</SUB>>, fillcolor="#90c8f0"] ;
 1 -> 3 ;
-4 [label=<InternetService_Fiber optic &le; 0.126<br/>gini = 0.262<br/>samples = 62.8%<br/>value = [0.845, 0.155]<br/>class = y<SUB>0</SUB>>, fillcolor="#ea985d"] ;
+4 [label=<InternetService_Fiber optic &le; 0.121<br/>gini = 0.27<br/>samples = 65.0%<br/>value = [0.839, 0.161]<br/>class = y<SUB>0</SUB>>, fillcolor="#ea995f"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label=<gini = 0.111<br/>samples = 35.0%<br/>value = [0.941, 0.059]<br/>class = y<SUB>0</SUB>>, fillcolor="#e78945"] ;
+5 [label=<gini = 0.118<br/>samples = 35.8%<br/>value = [0.937, 0.063]<br/>class = y<SUB>0</SUB>>, fillcolor="#e78946"] ;
 4 -> 5 ;
-6 [label=<gini = 0.4<br/>samples = 27.8%<br/>value = [0.724, 0.276]<br/>class = y<SUB>0</SUB>>, fillcolor="#efb184"] ;
+6 [label=<gini = 0.404<br/>samples = 29.2%<br/>value = [0.719, 0.281]<br/>class = y<SUB>0</SUB>>, fillcolor="#efb286"] ;
 4 -> 6 ;
 }
