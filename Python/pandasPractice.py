@@ -124,11 +124,11 @@ df2 = pd.DataFrame({
 # iloc gets rows (and/or cols) at integer locations.
 
 s = pd.Series(list("abcdef"), index =[49,48,47,0,1,2])
-# print(s.loc[0]) # at col with label 0
-# print(s.iloc[0]) #0th row of table
+print(s.loc[0]) # at col with label 0
+print(s.iloc[0]) #0th row of table
 
-# print(s.loc[0:2]) # at col with label 0
-# print(s.iloc[0:2]) #0th row of table
+print(s.loc[0:2]) # at col with label 0
+print(s.iloc[0:2]) #0th row of table
 
 ######### sort a series
 s= s.sort_index() #sorted by nums
