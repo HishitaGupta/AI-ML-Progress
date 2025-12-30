@@ -15,6 +15,15 @@ print(a.shape) #tells no of rows and columns
 
 print(b.dtype)
 
+
+
+
+
+
+
+
+
+
 print(a[0,2]) #print 3rd elemnt of 0th row
 print(a[0:])
 print(a[:,0]) #first element of all rows
